@@ -7,3 +7,4 @@ def test5(*args):
 s= test5(34,56,23,87)
 
 print(s)
+
