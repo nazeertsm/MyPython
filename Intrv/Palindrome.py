@@ -4,8 +4,11 @@
 num = int( input ( " ENTER THE NUMBER: " ) )
  
 temporary = num
+if temporary<0:
+	print( " number is not palindrome " )
+	
+
 rev = 0
- 
 # looping the given input and reversing the value  
 while temporary != 0:
 	rev = ( rev * 10 ) + ( temporary % 10 )
