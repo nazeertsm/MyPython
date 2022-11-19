@@ -18,4 +18,4 @@ print(3 * 3 + 3 / 3 -3)
 
 print(3 * (3 + 3) / 3 -3)
 3*6/3-3
-18/0 #ZeroDivisionError: division by zero
+18/0 #ZeroDivisionError: division by zerogit 
