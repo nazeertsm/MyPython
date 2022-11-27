@@ -13,6 +13,7 @@ def insertion_sort(arr):
 
 
 ## Driver code
-arr = [75, 90, 100, 95, 85, 80]
+#arr = [75, 90, 100, 95, 85, 80]
+arr = [75, 90, 100, 195, 85, 10]
 result = insertion_sort(arr)
 print("Sorted array after applying the insertion sort:", result)
