@@ -62,10 +62,10 @@
 
 
 # RUN THIS CELL TO IMPORT YOUR DATA
-import ada_c2_labs as lab
-state_list = lab.fetch_epa('state')
-county_list = lab.fetch_epa('county')
-aqi_list = lab.fetch_epa('aqi')
+#import ada_c2_labs as lab
+#state_list = lab.fetch_epa('state')
+#county_list = lab.fetch_epa('county')
+#aqi_list = lab.fetch_epa('aqi')
 
 
 # In[5]:
@@ -73,7 +73,7 @@ aqi_list = lab.fetch_epa('aqi')
 
 ### YOUR CODE HERE ###
 # Creating list of tuples
-epa_tuples = list(zip(state_list, county_list, aqi_list))
+#epa_tuples = list(zip(state_list, county_list, aqi_list))
 
 
 # <details><summary><h4>Hint 1</h4></summary>
